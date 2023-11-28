@@ -1,0 +1,95 @@
+/* Edit section starts here */
+
+#edit {
+    --pri-color: rgb(255, 51, 174);
+    --sec-color: rgb(197, 197, 197);
+    width: 37rem;
+    background-color: white;
+    margin: 3rem auto;
+    border: 1px solid var(--sec-color);
+    border-bottom: 1px solid transparent;
+    box-sizing: border-box;
+}
+
+#edit-section {
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid var(--sec-color);
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+
+#edit-section label {
+    font-size: 1.5rem;
+    margin: 0.2rem 0;
+    color: rgb(161, 158, 158);
+}
+
+#edit-section input {
+    width: 70%;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 0 0.5rem;
+}
+
+#edit-btn {
+    color: var(--pri-color);
+    background-color: white;
+}
+
+#edit-btn:hover {
+    color: white;
+    background-color: var(--pri-color);
+}
+
+/* works to Remember Starts Here */
+
+#todo-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#todo-list li {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--sec-color);
+}
+
+.works {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.span1 {
+    width: 80%;
+}
+
+.span2 {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.span1 input {
+    margin: 0.5rem 0.3rem 0.5rem 1rem;
+    accent-color: var(--pri-color);
+}
+
+.span1 p {
+   display: inline;
+   font-size: 1.5rem;
+}
+
+.edit-icon svg,
+.delete-icon svg  {
+    stroke: var(--pri-color);
+    padding: 3px 5px;
+    cursor: pointer;
+}
+
+.edit-icon svg:hover,
+.delete-icon svg:hover {
+    background-color: var(--sec-color);
+}
+
