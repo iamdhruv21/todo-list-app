@@ -1,7 +1,8 @@
 /* Edit section starts here */
 
 #edit {
-    --pri-color: rgb(255, 51, 174);
+    /* --pri-color: rgb(255, 51, 174); */
+    --pri-color: rgb(38, 114, 237);
     --sec-color: rgb(197, 197, 197);
     width: 37rem;
     background-color: white;

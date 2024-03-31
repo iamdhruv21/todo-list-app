@@ -1,7 +1,8 @@
 body {
     padding: 0;
     margin: 0;
-    --pri-color: rgb(255, 51, 174);
+    --pri-color: rgb(38, 114, 237);
+    /* --pri-color: rgb(255, 51, 174); */
     --sec-color: rgb(197, 197, 197);
     font-family: sans-serif;
 }

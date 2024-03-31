@@ -6,7 +6,7 @@ addBtn.addEventListener('click', () => {
     const inputValue = input.value;
     // console.log(inputValue);
     const li = document.createElement('li');
-    const article = document.createElement('article');
+    const article = document.createElement('div');
     article.className = 'works';
     const span1 = document.createElement('span');
     span1.className = 'span1';
