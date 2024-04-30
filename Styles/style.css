@@ -2,7 +2,6 @@ body {
     padding: 0;
     margin: 0;
     --pri-color: rgb(38, 114, 237);
-    /* --pri-color: rgb(255, 51, 174); */
     --sec-color: rgb(197, 197, 197);
     font-family: sans-serif;
 }
@@ -13,27 +12,25 @@ header {
     background-color: var(--pri-color);
 }
 
-#container {
-    display: block;
+#add-task-form {
     width: 35rem;
     height: 5rem;
     padding: 0.5rem 1rem;
     background-color: white;
     margin: 0 auto;
-    border: 1px solid var(--sec-color);
     box-shadow: 1px 1px 8px var(--sec-color);
     position: relative;
     top: -2.5rem;
 }
 
-#container label {
+#add-task-form label {
     display: block;
     margin: 0.5rem 0;
     font-size: 1.2rem;
     font-weight: 600;
 }
 
-#container input {
+#add-task-form input {
     width: 80%;
     padding: 0.2rem 0.5rem;
     font-size: 1.2rem;
@@ -56,6 +53,6 @@ header {
 }
 
 
-#container button:hover {
+#add-task-form button:hover {
     opacity: 1;
 }

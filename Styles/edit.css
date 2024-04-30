@@ -1,12 +1,11 @@
 /* Edit section starts here */
 
 #edit {
-    /* --pri-color: rgb(255, 51, 174); */
     --pri-color: rgb(38, 114, 237);
     --sec-color: rgb(197, 197, 197);
     width: 37rem;
     background-color: white;
-    margin: 3rem auto;
+    margin: 3rem auto 0 auto;
     border: 1px solid var(--sec-color);
     border-bottom: 1px solid transparent;
     box-sizing: border-box;
@@ -14,10 +13,9 @@
 
 #edit-section {
     padding: 1rem 1.5rem;
-    border-bottom: 1px solid var(--sec-color);
     display: flex;
     justify-content: space-between;
-    display: none;
+    /*display: none;*/
 }
 
 #edit-section label {
@@ -44,40 +42,48 @@
 }
 
 /* works to Remember Starts Here */
-
-#todo-list ul {
+#task-section{
+    width: 37rem;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--sec-color);
+}
+#task-section ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-#todo-list li {
+#task-section li {
     padding: 1rem 0;
-    border-bottom: 1px solid var(--sec-color);
+    border: 1px solid var(--sec-color);
 }
 
-.works {
+.task {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-.span1 {
+.task-section1 {
     width: 80%;
 }
 
-.span2 {
+.task-section2 {
     width: 20%;
     display: flex;
     justify-content: space-around;
 }
 
-.span1 input {
-    margin: 0.5rem 0.3rem 0.5rem 1rem;
+.task-section1 input {
+    margin: 0.5rem 0.5rem 0.5rem 1rem;
     accent-color: var(--pri-color);
 }
 
-.span1 p {
+.checkbox:checked + p{
+   text-decoration-line: line-through;
+}
+
+.task-section1 p {
    display: inline;
    font-size: 1.5rem;
 }
