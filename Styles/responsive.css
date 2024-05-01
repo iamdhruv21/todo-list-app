@@ -1,0 +1,67 @@
+@media screen and (max-width: 600px) {
+
+    #add-task-form {
+        width: 25rem;
+        height: 7rem;
+    }
+
+    #add-task-form input {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #add-btn {
+        display: block;
+        margin: 0.5rem auto;
+    }
+
+    #edit {
+        width: 27rem;
+    }
+
+    #edit-section {
+        padding: 1rem;
+    }
+
+    #edit-btn {
+        display: block;
+        margin-left: 0.5rem;
+    }
+
+    #task-section {
+        width: 27rem;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    #add-task-form {
+        width: 28rem;
+        height: 7rem;
+    }
+
+    #add-task-form input {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #add-btn {
+        display: block;
+        margin: 0.5rem auto;
+    }
+
+    #edit {
+        width: 30rem;
+    }
+
+    #edit-btn {
+        margin-left: 0.5rem;
+    }
+
+    #task-section {
+        width: 30rem;
+    }
+}
